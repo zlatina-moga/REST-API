@@ -5,7 +5,7 @@ async function getAll() {
 }
 
 async function getById(id) {
-    return await Item.findById(id)
+    return await Item.findById(id).lean(
 }
 
 async function create(data) {
