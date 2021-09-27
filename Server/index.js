@@ -1,9 +1,10 @@
-const express = require('express')
-const dbConfig = require('./config/database')
-const {PORT} = require('./config/index')
-const cors = require('./middlewares/cors')
-const storage = require('./middlewares/storage')
-const auth = require('./middlewares/auth')
+const express = require('express');
+const dbConfig = require('./config/database');
+const {PORT} = require('./config/index');
+const cors = require('./middlewares/cors');
+const storage = require('./middlewares/storage');
+const auth = require('./middlewares/auth');
+
 const userController = require('./controllers/userController')  // adjust to project requirements
 const itemController = require('./controllers/itemController')  // adjust to project requirements
 
